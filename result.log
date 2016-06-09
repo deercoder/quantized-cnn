@@ -1,0 +1,295 @@
+bin/QuanCNN
+[CHECK-POINT] entering CaffeEva::SetDirPath()
+[CHECK-POINT] entering CaffeEva::SetDirPath()
+[CHECK-POINT] entering CaffeEva::LoadDataset()
+[INFO] reading data matrix from ./ILSVRC12.227x227.IMG/dataMatTst.single.bin
+[INFO] matrix size: 1000 x 3 x 227 x 227
+[INFO] reading data matrix from ./ILSVRC12.227x227.IMG/dataMatTst.single.bin [COMPLETED]
+[INFO] reading data matrix from ./ILSVRC12.227x227.IMG/lablVecTst.uint16.bin
+[INFO] matrix size: 1 x 1 x 1 x 1000
+[INFO] reading data matrix from ./ILSVRC12.227x227.IMG/lablVecTst.uint16.bin [COMPLETED]
+[CHECK-POINT] entering CaffeEva::LoadCaffePara()
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.01.bin
+[INFO] matrix size: 96
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.01.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.01.bin
+[INFO] matrix size: 1 x 128 x 8
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.01.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.01.cbn
+[INFO] matrix size: 96 x 11 x 11 x 1
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.01.cbn [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.05.bin
+[INFO] matrix size: 256
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.05.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.05.bin
+[INFO] matrix size: 6 x 128 x 8
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.05.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.05.cbn
+[INFO] matrix size: 256 x 5 x 5 x 6
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.05.cbn [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.09.bin
+[INFO] matrix size: 384
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.09.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.09.bin
+[INFO] matrix size: 32 x 128 x 8
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.09.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.09.cbn
+[INFO] matrix size: 384 x 3 x 3 x 32
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.09.cbn [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.11.bin
+[INFO] matrix size: 384
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.11.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.11.bin
+[INFO] matrix size: 24 x 128 x 8
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.11.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.11.cbn
+[INFO] matrix size: 384 x 3 x 3 x 24
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.11.cbn [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.13.bin
+[INFO] matrix size: 256
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.13.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.13.bin
+[INFO] matrix size: 24 x 128 x 8
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.13.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.13.cbn
+[INFO] matrix size: 256 x 3 x 3 x 24
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.13.cbn [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.16.bin
+[INFO] matrix size: 4096
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.16.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.16.bin
+[INFO] matrix size: 2304 x 32 x 4
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.16.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.16.cbn
+[INFO] matrix size: 4096 x 2304
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.16.cbn [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.19.bin
+[INFO] matrix size: 4096
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.19.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.19.bin
+[INFO] matrix size: 1024 x 32 x 4
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.19.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.19.cbn
+[INFO] matrix size: 4096 x 1024
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.19.cbn [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.22.bin
+[INFO] matrix size: 1000
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.biasVec.22.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.22.bin
+[INFO] matrix size: 4096 x 16 x 1
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.ctrdLst.22.bin [COMPLETED]
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.22.cbn
+[INFO] matrix size: 1000 x 4096
+[INFO] reading data matrix from ./AlexNet/Bin.Files/bvlc_alexnet_aCaF.asmtLst.22.cbn [COMPLETED]
+layer # 0:    1 x  227 x  227 x    3 (  0.59 MB)
+layer # 1:    1 x   55 x   55 x   96 (  1.11 MB)
+layer # 2:    1 x   55 x   55 x   96 (  1.11 MB)
+layer # 3:    1 x   55 x   55 x   96 (  1.11 MB)
+layer # 4:    1 x   27 x   27 x   96 (  0.27 MB)
+layer # 5:    1 x   27 x   27 x  256 (  0.71 MB)
+layer # 6:    1 x   27 x   27 x  256 (  0.71 MB)
+layer # 7:    1 x   27 x   27 x  256 (  0.71 MB)
+layer # 8:    1 x   13 x   13 x  256 (  0.17 MB)
+layer # 9:    1 x   13 x   13 x  384 (  0.25 MB)
+layer #10:    1 x   13 x   13 x  384 (  0.25 MB)
+layer #11:    1 x   13 x   13 x  384 (  0.25 MB)
+layer #12:    1 x   13 x   13 x  384 (  0.25 MB)
+layer #13:    1 x   13 x   13 x  256 (  0.17 MB)
+layer #14:    1 x   13 x   13 x  256 (  0.17 MB)
+layer #15:    1 x    6 x    6 x  256 (  0.04 MB)
+layer #16:    1 x    1 x    1 x 4096 (  0.02 MB)
+layer #17:    1 x    1 x    1 x 4096 (  0.02 MB)
+layer #18:    1 x    1 x    1 x 4096 (  0.02 MB)
+layer #19:    1 x    1 x    1 x 4096 (  0.02 MB)
+layer #20:    1 x    1 x    1 x 4096 (  0.02 MB)
+layer #21:    1 x    1 x    1 x 4096 (  0.02 MB)
+layer #22:    1 x    1 x    1 x 1000 (  0.00 MB)
+layer #23:    1 x    1 x    1 x 1000 (  0.00 MB)
+layer # 1: 
+  buffer #4:    1 x  227 x  227 x    3 (  0.59 MB)
+  buffer #5: 51529 x    1 x  128 ( 25.16 MB)
+layer # 2: 
+layer # 3: 
+  buffer #1:  100 (  0.00 MB)
+  buffer #2:   96 (  0.00 MB)
+layer # 4: 
+layer # 5: 
+  buffer #4:    1 x   27 x   27 x   48 (  0.13 MB)
+  buffer #5:  729 x    6 x  128 (  2.14 MB)
+layer # 6: 
+layer # 7: 
+  buffer #1:  260 (  0.00 MB)
+  buffer #2:  256 (  0.00 MB)
+layer # 8: 
+layer # 9: 
+  buffer #4:    1 x   13 x   13 x  256 (  0.17 MB)
+  buffer #5:  169 x   32 x  128 (  2.64 MB)
+layer #10: 
+layer #11: 
+  buffer #4:    1 x   13 x   13 x  192 (  0.12 MB)
+  buffer #5:  169 x   24 x  128 (  1.98 MB)
+layer #12: 
+layer #13: 
+  buffer #4:    1 x   13 x   13 x  192 (  0.12 MB)
+  buffer #5:  169 x   24 x  128 (  1.98 MB)
+layer #14: 
+layer #15: 
+layer #16: 
+  buffer #1:    1 x 9216 (  0.04 MB)
+  buffer #2:    1 x 2304 x   32 (  0.28 MB)
+layer #17: 
+layer #18: 
+layer #19: 
+  buffer #1:    1 x 4096 (  0.02 MB)
+  buffer #2:    1 x 1024 x   32 (  0.12 MB)
+layer #20: 
+layer #21: 
+layer #22: 
+  buffer #1:    1 x 4096 (  0.02 MB)
+  buffer #2:    1 x 4096 x   16 (  0.25 MB)
+layer #23: 
+[CHECK-POINT] entering CaffeEva::ExecForwardPass()
+processing the 1-th batch
+processing the 2-th batch
+processing the 3-th batch
+processing the 4-th batch
+processing the 5-th batch
+processing the 6-th batch
+processing the 7-th batch
+processing the 8-th batch
+processing the 9-th batch
+processing the 10-th batch
+processing the 11-th batch
+processing the 12-th batch
+processing the 13-th batch
+processing the 14-th batch
+processing the 15-th batch
+processing the 16-th batch
+processing the 17-th batch
+processing the 18-th batch
+processing the 19-th batch
+processing the 20-th batch
+processing the 21-th batch
+processing the 22-th batch
+processing the 23-th batch
+processing the 24-th batch
+processing the 25-th batch
+processing the 26-th batch
+processing the 27-th batch
+processing the 28-th batch
+processing the 29-th batch
+processing the 30-th batch
+processing the 31-th batch
+processing the 32-th batch
+processing the 33-th batch
+processing the 34-th batch
+processing the 35-th batch
+processing the 36-th batch
+processing the 37-th batch
+processing the 38-th batch
+processing the 39-th batch
+processing the 40-th batch
+processing the 41-th batch
+processing the 42-th batch
+processing the 43-th batch
+processing the 44-th batch
+processing the 45-th batch
+processing the 46-th batch
+processing the 47-th batch
+processing the 48-th batch
+processing the 49-th batch
+processing the 50-th batch
+processing the 51-th batch
+processing the 52-th batch
+processing the 53-th batch
+processing the 54-th batch
+processing the 55-th batch
+processing the 56-th batch
+processing the 57-th batch
+processing the 58-th batch
+processing the 59-th batch
+processing the 60-th batch
+processing the 61-th batch
+processing the 62-th batch
+processing the 63-th batch
+processing the 64-th batch
+processing the 65-th batch
+processing the 66-th batch
+processing the 67-th batch
+processing the 68-th batch
+processing the 69-th batch
+processing the 70-th batch
+processing the 71-th batch
+processing the 72-th batch
+processing the 73-th batch
+processing the 74-th batch
+processing the 75-th batch
+processing the 76-th batch
+processing the 77-th batch
+processing the 78-th batch
+processing the 79-th batch
+processing the 80-th batch
+processing the 81-th batch
+processing the 82-th batch
+processing the 83-th batch
+processing the 84-th batch
+processing the 85-th batch
+processing the 86-th batch
+processing the 87-th batch
+processing the 88-th batch
+processing the 89-th batch
+processing the 90-th batch
+processing the 91-th batch
+processing the 92-th batch
+processing the 93-th batch
+processing the 94-th batch
+processing the 95-th batch
+processing the 96-th batch
+processing the 97-th batch
+processing the 98-th batch
+processing the 99-th batch
+processing the 100-th batch
+[CHECK-POINT] entering CaffeEva::CalcPredAccu()
+ACCURACY@1: 58, 58.00%
+ACCURACY@2: 69, 69.00%
+ACCURACY@3: 78, 78.00%
+ACCURACY@4: 81, 81.00%
+ACCURACY@5: 85, 85.00%
+swAllLayers: 16.6501 (s)
+swConvLayer: 13.7501 (s)
+swPoolLayer: 0.1200 (s)
+swFCntLayer: 1.9000 (s)
+swReLuLayer: 0.0800 (s)
+swLoRNLayer: 0.8000 (s)
+swDrptLayer: 0.0000 (s)
+swSMaxLayer: 0.0000 (s)
+swCompLkupTblConv: 3.0600 (s)
+swEstiInPdValConv: 10.6901 (s)
+swCompLkupTblFCnt: 0.0600 (s)
+swEstiInPdValFCnt: 1.8300 (s)
+swDebugTimePri: 0.0000 (s)
+swDebugTimeSec: 0.0000 (s)
+swIndvLayerLst # 1: 5.8300 (s)
+swIndvLayerLst # 2: 0.0600 (s)
+swIndvLayerLst # 3: 0.5200 (s)
+swIndvLayerLst # 4: 0.0500 (s)
+swIndvLayerLst # 5: 3.2100 (s)
+swIndvLayerLst # 6: 0.0000 (s)
+swIndvLayerLst # 7: 0.2800 (s)
+swIndvLayerLst # 8: 0.0600 (s)
+swIndvLayerLst # 9: 1.9700 (s)
+swIndvLayerLst #10: 0.0100 (s)
+swIndvLayerLst #11: 1.6000 (s)
+swIndvLayerLst #12: 0.0000 (s)
+swIndvLayerLst #13: 1.1400 (s)
+swIndvLayerLst #14: 0.0100 (s)
+swIndvLayerLst #15: 0.0100 (s)
+swIndvLayerLst #16: 0.9900 (s)
+swIndvLayerLst #17: 0.0000 (s)
+swIndvLayerLst #18: 0.0000 (s)
+swIndvLayerLst #19: 0.4400 (s)
+swIndvLayerLst #20: 0.0000 (s)
+swIndvLayerLst #21: 0.0000 (s)
+swIndvLayerLst #22: 0.4700 (s)
+swIndvLayerLst #23: 0.0000 (s)
+elapsed time: 17.4900 (s)

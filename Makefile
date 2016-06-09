@@ -8,10 +8,10 @@ OBJ_DIR=obj
 BIN_DIR=bin
 SRCS=$(wildcard $(SRC_DIR)/*.cc)
 OBJS=$(SRCS:$(SRC_DIR)/%.cc=$(OBJ_DIR)/%.o)
-CPPFLAGS=-I/usr/include/atlas -I/opt/OpenVML/include
+CPPFLAGS=-I/usr/include/atlas -I/usr/local/OpenVML/include
 CFLAGS=-Wall -std=c++11 -O2
-LDFLAGS=-L/usr/lib/atlas-base -L/opt/OpenVML/lib
-LDLIBS=-lcblas -latlas -lopenvml
+LDFLAGS=-L/usr/lib64/atlas -L/usr/local/OpenVML/lib
+LDLIBS= -latlas -lopenvml
 DFLAGS=-D ENABLE_ATLAS -D ENABLE_OPENVML
 TARGET=$(BIN_DIR)/QuanCNN
 

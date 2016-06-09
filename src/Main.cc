@@ -9,7 +9,7 @@
 
 int main(int argc, char* argv[]) {
   // run unit-test for the <CaffePara> class
-  // UnitTest::UT_CaffePara();
+  //UnitTest::UT_CaffePara();
 
   // MODE 1: SPEED TEST
   // run unit-test for the <CaffeEva> class
@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 
   // MODE 2: SINGLE IMAGE CLASSIFICATION
   // run unit-test for the <CaffeEvaWrapper> class
-  // UnitTest::UT_CaffeEvaWrapper();
+  UnitTest::UT_CaffeEvaWrapper();
 
   return 0;
 }
